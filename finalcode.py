@@ -1,3 +1,11 @@
+from operator import itemgetter
+
+def totalcount():
+   print('Total Words:', len(per_word))
+
+def wordsbynum():
+   print('Word Frequency:', counts)
+
 def inorder() -> object:
    for key, value in sorted(counts.items(), key=itemgetter(1), reverse=True):
        print(key,':', value)
